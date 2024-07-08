@@ -3,8 +3,11 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `gatsby-tutorial-site`,
+    title: `Gatsby Tutorial Site`,
     siteUrl: `https://givemeanthony-tutorial.netlify.app`,
   },
-  plugins: [],
-}
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp"
+  ],
+};
