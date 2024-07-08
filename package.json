@@ -1,9 +1,9 @@
 {
-  "name": "project-portfolio",
+  "name": "gatsby-tutorial-site",
   "version": "1.0.0",
   "private": true,
-  "description": "project-portfolio",
-  "author": "base2taiji",
+  "description": "gatsby-tutorial-site",
+  "author": "GiveMeAnthony",
   "keywords": [
     "gatsby"
   ],
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "gatsby": "^5.13.5",
+    "gatsby-adapter-netlify": "^1.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
